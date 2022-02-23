@@ -1,4 +1,5 @@
 .page {
+  min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
 
@@ -65,6 +66,14 @@
   margin-bottom: 92px;
 }
 
+@media screen and (max-width:1279px) {
+  .lead {
+    max-width: calc(100% - 48px*2);
+    margin-top: 48px;
+
+  }
+}
+
 .lead__title {
   max-width: 720px;
   margin: 0;
@@ -95,7 +104,6 @@
 .lead__figure {
   margin: 0;
   padding: 0;
-
 }
 
 .lead__image {
@@ -118,7 +126,13 @@
   max-width: calc(100% - 148px*2);
   margin: auto;
   margin-bottom: 92px;
+}
 
+@media screen and (max-width:1279px) {
+  .intro {
+    max-width: calc(100% - 48px*2);
+
+  }
 }
 
 .intro__container {
@@ -183,6 +197,14 @@
   gap: 16px;
 }
 
+@media screen and (max-width:1279px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+  }
+}
+
 .photo-grid__item {
   max-width: 100%;
   min-height: 100%;
@@ -194,6 +216,13 @@
   width: calc(100% - 148px*2);
   margin: auto;
   margin-bottom: 92px;
+}
+
+@media screen and (max-width:1279px) {
+  .places {
+    width: calc(100% - 48px*2);
+
+  }
 }
 
 .places__list {
@@ -218,6 +247,12 @@
   grid-template-columns: min-content minmax(min-content, 1fr);
   row-gap: 48px;
   column-gap: 40px;
+}
+
+@media screen and (max-width:1279px) {
+  .place {
+    column-gap: 32px;
+  }
 }
 
 .place__title {
@@ -266,6 +301,12 @@
   max-width: 460px;
 }
 
+@media screen and (max-width:1279px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
 .place__paragraphs {
   display: flex;
   flex-direction: column;
@@ -284,6 +325,13 @@
 .cover {
   max-width: calc(100% - 48px*2);
   margin: auto;
+}
+
+@media screen and (max-width:1279px) {
+  .cover {
+    max-width: 100%;
+
+  }
 }
 
 .cover__background {
