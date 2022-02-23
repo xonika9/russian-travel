@@ -266,7 +266,12 @@
   max-width: 460px;
 }
 
-.place__paragraphs {}
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+
+  gap: 26px;
+}
 
 .place__paragraph {
   margin: 0;
