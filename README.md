@@ -19,5 +19,4 @@
 - Методология БЭМ
 - Файловая структура БЭМ Nested
 
-
-Ссылка на GitHub Pages: 'https://xonika9.github.io/russian-travel/'
+Ссылка на [GitHub Pages]([https://xonika9.github.io/mesto/](https://xonika9.github.io/russian-travel/))
