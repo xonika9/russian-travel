@@ -1,22 +1,22 @@
-# Путешествия по России
+# Russian Travel
 
-Мой второй проект в Яндекс.Практикуме
+My second project at Yandex.Practicum
 
 ---
 
-## Стек
+## Stack
 
 - HTML
 - CSS
 
-## Реализация
+## Implementation
 
 - Flexbox, Grid
-- CSS-анимация
-- Адаптивность для различной ширины окна браузера 320/425/768/1024/1280
-- Оптимизация изображений
-- Оптимизация шрифтов под устройства с различными разрешениями
-- Методология БЭМ
-- Файловая структура БЭМ Nested
+- CSS-animation
+- Adaptability for different browser window widths 320/425/768/1024/1280
+- Images optimization
+- Font optimization for devices with different resolutions
+- BEM methodology
+- БЭМ Nested file structure
 
-Ссылка на [GitHub Pages](https://xonika9.github.io/russian-travel)
+Link to [GitHub Pages](https://xonika9.github.io/russian-travel)
